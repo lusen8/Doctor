@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flipboard.bottomsheet.BottomSheetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sheet_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lusen.doctor.PayActivity"
+    android:background="@color/colorPrimary">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/orderShowImage"/>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:id="@+id/cardtext"
+                android:layout_below="@+id/orderShowImage"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/orderShowName"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:textSize="25dp" />
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:id="@+id/cardmoney"
+                android:layout_below="@+id/cardtext"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/orderShowMoney"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:gravity="center"
+                    android:background="@color/colorPrimary"
+                    android:textSize="30dp"/>
+            </android.support.v7.widget.CardView>
+
+            <Button
+                android:id="@+id/commit"
+                android:layout_below="@+id/cardmoney"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/money" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</com.flipboard.bottomsheet.BottomSheetLayout>

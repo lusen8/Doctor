@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">小药郎</string>
+    <string name="username">小要</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="business">活动来袭</string>
+
+    <string name="notifyTitle">提示</string>
+    <string name="notifyMsg">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string>
+    <string name="error_network">搜索失败,请检查网络连接！</string>
+    <string name="no_result">对不起，没有搜索到相关数据！</string>
+
+    <string name="setting">设置</string>
+    <string name="cancel">取消</string>
+
+    <string name="uesrTips">未认证</string>
+
+    <string name="plan">我的药方</string>
+    <string name="fitnessGuide">药品指南</string>
+    <string name="scan">扫一扫</string>
+    <string name="invite">分享</string>
+    <string name="friends">好友圈</string>
+    <string name="about">关于我们</string>
+
+    <string name="foodChoose">药方选择</string>
+    <string name="orderConfirm">订单确认</string>
+
+    <string name="money">提交订单</string>
+    <string name="choosePay">选择支付方式</string>
+    <string name="ali_pay">支付宝</string>
+    <string name="we_chat">微信</string>
+
+    <string name="mapTips">拉肚子药提供点>>></string>
+
+    <string name="QRerror"></string>
+
+    <string name="location">定位</string>
+    <string name="order">立即预约</string>
+    <string name="feedback">反馈</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_guide">购药指南</string>
+
+    <string name="title_home">妙手回春</string>
+    <string name="title_dashboard">超级药方</string>
+    <string name="title_notifications">平台简介</string>
+
+    <string name="shareTitle">发送给我的好友</string>
+    <string name="shareContent">我正在使用小药郎，方便快捷、用药准确。妈妈，再也不用担心我生病啦！</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_buttom">ButtomActivity</string>
+
+    <string name="advise">请输入您的建议</string>
+    <string name="emptyTips">您还没有填写信息呢...</string>
+    <string name="back">很高兴我们收到了您的反馈(SUCCESS)-小药郎服务站</string>
+
+    <string name="success">支付成功</string>
+</resources>
