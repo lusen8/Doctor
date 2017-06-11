@@ -1,4 +1,4 @@
-package com.example.lusen.doctor.net;
+package com.example.lusen.doctor.util;
 
 import java.util.concurrent.TimeUnit;
 

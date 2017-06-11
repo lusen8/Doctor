@@ -10,9 +10,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.lusen.doctor.model.uploadModel;
-import com.example.lusen.doctor.net.ApiService;
-import com.example.lusen.doctor.net.MyHttpURL;
-import com.example.lusen.doctor.net.RetrofitClient;
+import com.example.lusen.doctor.util.ApiService;
+import com.example.lusen.doctor.util.MyHttpURL;
+import com.example.lusen.doctor.util.RetrofitClient;
 import com.flipboard.bottomsheet.BottomSheetLayout;
 import com.flipboard.bottomsheet.commons.MenuSheetView;
 

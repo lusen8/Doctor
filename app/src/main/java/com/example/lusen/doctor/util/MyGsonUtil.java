@@ -1,4 +1,4 @@
-package com.example.lusen.doctor.net;
+package com.example.lusen.doctor.util;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;

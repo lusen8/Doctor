@@ -1,4 +1,4 @@
-package com.example.lusen.doctor.net;
+package com.example.lusen.doctor.util;
 
 /**
  * Created by lusen on 2017/2/6.

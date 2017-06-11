@@ -61,7 +61,7 @@
             android:screenOrientation="portrait"/>
 
         <activity android:name=".DataRecordActivity"
-            android:label="我的早餐"/>
+            android:label="我的药铺"/>
 
         <activity
             android:name=".AboutusActivity"

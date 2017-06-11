@@ -9,7 +9,7 @@ import android.widget.TextView;
 import com.amap.api.maps.AMap;
 import com.amap.api.maps.MapView;
 
-import com.example.lusen.doctor.net.MyHttpURL;
+import com.example.lusen.doctor.util.MyHttpURL;
 
 public class TestActivity extends AppCompatActivity {
 
