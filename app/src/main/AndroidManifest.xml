@@ -60,6 +60,11 @@
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="portrait"/>
 
+        <activity
+            android:name=".ChatActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+
         <activity android:name=".DataRecordActivity"
             android:label="我的药铺"/>
 

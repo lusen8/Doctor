@@ -59,6 +59,8 @@ public class FoodsActivity extends AppCompatActivity {
         titles.add("日常药品");
         titles.add("保健品");
         titles.add("必备药品");
+        titles.add("心血管药品");
+        titles.add("非口服药");
         mViewpager = (ViewPager) findViewById(R.id.record_viewpager);
         mTabLayout=  (TabLayout)findViewById(R.id.tab_layout);
         myadapt = new TabViewAdapter(getSupportFragmentManager());

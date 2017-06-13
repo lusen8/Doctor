@@ -111,7 +111,7 @@ public class MainActivity extends CheckPermissionsActivity
         int id = item.getItemId();
 
         if (id == R.id.business) {
-            Intent intent = new Intent(this, AdActivity.class);
+            Intent intent = new Intent(this, ChatActivity.class);
             startActivity(intent);
             return true;
         }
