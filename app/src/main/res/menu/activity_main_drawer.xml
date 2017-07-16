@@ -14,9 +14,13 @@
             android:id="@+id/scan"
             android:icon="@drawable/ic_menu_scan"
             android:title="@string/scan" />
+        <item
+            android:id="@+id/ask"
+            android:icon="@drawable/ic_favorite_border"
+            android:title="@string/ask"/>
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="加入我们">
         <menu>
             <item
                 android:id="@+id/invite"

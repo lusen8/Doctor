@@ -9,7 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.view.MenuItem;
 
-import com.example.lusen.doctor.adapter.Food;
+import com.example.lusen.doctor.date.Food;
 import com.example.lusen.doctor.adapter.FoodRecyclerAdapter;
 import com.example.lusen.doctor.adapter.TabViewAdapter;
 import com.example.lusen.doctor.fragment.RecordFragment1;

@@ -9,10 +9,10 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import java.util.ArrayList;
-
 import com.example.lusen.doctor.R;
 import com.example.lusen.doctor.model.Person;
+
+import java.util.ArrayList;
 
 /**
  * Created by lusen on 2017/5/8.
@@ -61,14 +61,14 @@ public class RecordAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         String title = null;
         switch (personList.get(position).getId()){
-            case 1: title = "豆浆加奶酪，完美组合，满足你每天的蛋白质需求";foodId = R.drawable.food1;break;
-            case 2: title = "煎蛋面包，早餐，我～的最爱";foodId = R.drawable.food2;break;
-            case 3: title = "要想早餐吃得饱，两枚鸡蛋少不了，Prefecte!";foodId = R.drawable.food3;break;
-            case 4: title = "水果早餐，当然要属香蕉啦！保持好身材";foodId = R.drawable.food4;break;
-            case 5: title = "你说什么？想要喝的？皮蛋瘦肉粥啊！";foodId = R.drawable.food5;break;
-            case 6: title = "鸡蛋羹说，她可以给你想要的营养，还在等什么！";foodId = R.drawable.food6;break;
-            case 7: title = "小面包,当然要来找小光啊！据说还有水果呦！";foodId = R.drawable.food7;break;
-            default: title = "听说三明治和牛奶更配哦！"; foodId = R.drawable.food8;
+            case 1: title = "幸福不是从不感冒，而是感冒时传递的那一杯温暖。";foodId = R.drawable.food1;break;
+            case 2: title = "感冒了，不喝板蓝根，一个传染俩";foodId = R.drawable.food2;break;
+            case 3: title = "小柴胡，孩子感冒老不好，小柴胡来帮忙！";foodId = R.drawable.food3;break;
+            case 4: title = "什么还有这种操作？感冒片！强！";foodId = R.drawable.food4;break;
+            case 5: title = "再说一遍，葵花牌克感利咽，小葵花治感冒啦！";foodId = R.drawable.food5;break;
+            case 6: title = "口服液还可以抗病毒，我没听错吧！";foodId = R.drawable.food6;break;
+            case 7: title = "双黄连口服液，感冒吃黄连，好的贼快！";foodId = R.drawable.food7;break;
+            default: title = "新版小柴胡，一样的功效呦！"; foodId = R.drawable.food8;
 
         }
         ((MyHolder) holder).record_tv.setText(title);

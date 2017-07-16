@@ -110,11 +110,11 @@ public class MainActivity extends CheckPermissionsActivity
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        if (id == R.id.business) {
-            Intent intent = new Intent(this, ChatActivity.class);
-            startActivity(intent);
-            return true;
-        }
+//        if (id == R.id.business) {
+//            Intent intent = new Intent(this, ChatActivity.class);
+//            startActivity(intent);
+//            return true;
+//        }
 
         return super.onOptionsItemSelected(item);
     }
@@ -142,6 +142,9 @@ public class MainActivity extends CheckPermissionsActivity
             startActivity(Intent.createChooser(intent, getResources().getString(R.string.shareTitle)));
         } else if (id == R.id.about) {
             Intent intent = new Intent(this, AboutusActivity.class);
+            startActivity(intent);
+        }else if (id == R.id.ask){
+            Intent intent = new Intent(this, ChatActivity.class);
             startActivity(intent);
         }
 

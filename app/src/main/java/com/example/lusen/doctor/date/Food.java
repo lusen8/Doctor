@@ -1,4 +1,4 @@
-package com.example.lusen.doctor.adapter;
+package com.example.lusen.doctor.date;
 
 /**
  * Created by wentai on 17-5-13.

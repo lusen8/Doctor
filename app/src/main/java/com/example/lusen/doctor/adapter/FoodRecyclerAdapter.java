@@ -9,11 +9,12 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.example.lusen.doctor.PayActivity;
 import com.example.lusen.doctor.R;
+import com.example.lusen.doctor.date.Food;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class FoodRecyclerAdapter extends RecyclerView.Adapter<FoodRecyclerAdapter.ViewHolder> {
 
